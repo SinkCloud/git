@@ -1,0 +1,335 @@
+<link rel="icon" href="https://lh6.googleusercontent.com/Z6l88Sc_QlzK__vayF4JUVNQyYsiVYcr7Ml6TciPik4c0NiEqdyvsnpEAAB1-mprTfJPr4pIBQ=w16383" >
+<audio id="myAudio" >
+
+  <source src="https://content.jwplatform.com/videos/kjMCcyvP-MIs7BbbM.m4a" type="audio/mpeg" >
+  Your browser does not support the audio element.
+</audio>
+
+
+
+
+ 
+
+<script>
+var x = document.getElementById("myAudio");
+
+function playAudioc() {
+  document.getElementById("playBtn").style.display = "none"
+  document.getElementById("pauseBtn").style.display = "inline"
+  x.play();
+  
+  
+}
+
+function pauseAudioc() {
+  x.pause();
+  document.getElementById("playBtn").style.display = "inline"
+  document.getElementById("pauseBtn").style.display = "none"
+}
+function restartAudioc() {
+x.currentTime = 0;
+}
+function seekFwd() {
+ alert("There are no other tracks to seek to");
+}
+function seekBkw() {
+ alert("There are no other tracks to seek to");
+}
+ function v0() {
+ x.volume = 0.0;
+}
+function v10() {
+ x.volume = 0.1;
+}
+function v50() {
+ x.volume = 0.5;
+}
+function v80() {
+ x.volume = 0.8;
+}
+function v100() {
+ x.volume = 0.99;
+}
+function stopAudioc() {
+document.getElementById("playBtn").style.display = "inline"
+  document.getElementById("pauseBtn").style.display = "none"
+ x.currentTime = 0;
+ x.pause();
+}
+</script>
+
+
+
+<style>
+
+</style>
+<div id="loading">
+<div class="infinity-loader">
+  
+  <div class="bg">
+    <!--background circles-->
+    <div class="left-bg"></div>
+    <div class="right-bg"></div>
+  </div>
+  <div class="fg">
+    <!--foreground circles-->
+    <div class="top-left-rect">
+      <div></div>
+    </div>
+    <div class="bottom-right-rect">
+      <div></div>
+    </div>
+    <div class="top-right-rect">
+      <div></div>
+    </div>
+    <div class="bottom-left-rect">
+      <div></div>
+    </div>
+    
+  </div>
+  
+</div>
+  <center><h2 style="color:white;">Welcome!</h2><h3 style="color:white;">We are setting things up for you...</h3></center>
+</div>
+
+
+<script>
+        setInterval(function() {
+            var div = document.querySelector("#counter");
+            var count = div.textContent * 1 - 1;
+            div.textContent = count;
+            if (count <= 0) {
+    document.getElementById("loading").style.display = "none"
+document.getElementById("pager").style.display = "inline"
+
+
+            }
+        }, 1000);
+        
+    </script>
+    <div class="container"  id="counter">7</div>
+<title>Quantum | Chatroom</title>
+
+<style>
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+  
+/* End of fonts */
+  
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 7px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #36363D;
+
+
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #1472ff;
+}
+
+#loading{width:100%;height:100%;top:0;left:0;position:fixed;display:block;z-index:99 background-color: #000}#loading-image{position:absolute;top:40%;left:45%;z-index:100}#counter{display:none}#pager{display:none}.infinity-loader{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:130px;height:70px}.infinity-loader .bg div,.infinity-loader>.fg>div>div{width:70px;height:70px;border:10px solid #aaa;box-sizing:border-box;border-radius:50%;position:absolute}.infinity-loader .right-bg{transform:translate(100%,0);left:-10px}.infinity-loader>.fg>div>div{border-color:#1472ff #1472ff transparent transparent;transform:rotate(135deg);animation:spin 1s linear infinite;position:static}.infinity-loader>.fg>div{clip:rect(0,70px,35px,0);position:absolute}.infinity-loader>.fg>.bottom-right-rect{left:-10px;transform:translateX(100%) scale(1,-1)}.infinity-loader>.fg>.bottom-right-rect>div{animation-delay:.25s}.infinity-loader>.fg>.top-right-rect{left:-10px;transform:translateX(100%) scale(-1,1)}.infinity-loader>.fg>.top-right-rect>div{animation-delay:.5s}.infinity-loader>.fg>.bottom-left-rect{transform:scale(-1)}.infinity-loader>.fg>.bottom-left-rect>div{animation-delay:.75s}.infinity-loader>.fg{filter:drop-shadow(0 0 6px #1472ff)}@keyframes spin{100%,50%{transform:rotate(495deg)}}.box-r{overflow-y:scroll;color:#fff;background-color:#36363d;border-width:1px;border-color:#000;border-style:solid;border-radius:5px 5px 5px 5px;width:500px;padding:50px 0;height:300px}.box-r input{border-radius:5px 5px 5px 5px;border-style:solid;border-width:1px;border-color:#000;color:#fff;width:400px;height:45px;background-color:#2e313d}.main textarea{resize:vertical;border-radius:5px 5px 5px 5px;border-style:solid;border-width:1px;border-color:#000;color:#fff;width:400px;height:100px;background-color:#2e313d;text-indent:5px}.box-r input[type=textarea]{text-indent:5px;font-family:Lato,sans-serif}.box-r input[type=password]{text-indent:5px}.box-r input[type=email]{text-indent:5px}.box-r input[type=submit]{border-width:0;background-color:#909}.box-r input:hover{border-color:#909}.box-r select{border-radius:5px 5px 5px 5px;border-style:solid;border-width:1px;border-color:#000;color:#fff;width:400px;height:45px;background-color:#2e313d}.box-r strong{font-size:12;color:#979691}.box-r select:hover{border-color:#909}.box-r p{font-size:15px}body{font-family:Lato,sans-serif;background-color:#36363d;min-height:100%;background-position:center;background-size:cover resize:;}.alert{font-size:15px;padding:20px;background-color:#1472ff;background-image:linear-gradient(to bottom right,#1472ff,#002f75);border-width:1px;border-color:#fff;color:#fff;transition:.5s}.alert:hover{padding:30px;font-size:20px}.closebtn{margin-left:15px;color:#fff;font-weight:700;float:right;font-size:22px;line-height:20px;cursor:pointer;transition:1s}.closebtn:hover{color:red;font-size:50px;text-shadow:20px 2px #909}.sidenav{height:100%;width:250px;position:fixed;z-index:1;top:0;left:0;background-color:#111;overflow-x:hidden;padding-top:20px}.sidenav a{padding:6px 8px 6px 16px;text-decoration:none;font-size:25px;color:#818181;display:block}.sidenav a:hover{color:#f1f1f1}.main{color:#fff;font-size:20px;padding:0 10px}.main h1{font-size:60px;color:linear-gradient(to bottom right,#002f75,#1472ff)}@media screen and (max-height:450px){.sidenav{padding-top:15px}.sidenav a{font-size:18px}}.sidenav button{border-radius:5px 5px 5px 5px;margin-left:25px;border-style:outset;border-width:1px;border-color:#000;color:#fff;width:200px;height:45px;background-image:linear-gradient(to bottom right,#002f75,#1472ff);transition:.3s}.sidenav button:hover{width:210px;margin-left:20px}#fixtextarea:hover{border-color:#909;border-width:1px;border-style:dashed}#fixtextarea{margin-left:25px;resize:none;border-radius:5px 5px 5px 5px;border-style:solid;border-width:1px;border-color:#000;color:#fff;width:194px;height:100px;background-color:#2e313d;text-indent:5px}#submit{border-radius:5px 5px 5px 5px;margin-left:25px;border-style:solid;border-width:1px;border-color:#000;color:#fff;width:200px;height:45px;background-color:#909}#submit:hover{background-color:#e600e5}.sidenavad{margin-left:25px;width:200px;height:200px;border-radius:5px 5px 5px 5px;background-color:#7289da}.sidenavad p{text-indent:3px;color:#fff}
+  .main h1{
+    transition: 1s;
+  }
+  .main h1:hover {
+    color:blue;
+    font-size:70px;
+    
+  }
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 50%;
+  height: 5px;
+  border-radius: 5px;
+  background: #00fa69;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #FFF;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.slider::-moz-range-thumb {
+  width: 23px;
+  height: 24px;
+  border: 0;
+  background: #FFF;
+  cursor: pointer;
+}
+
+ #pauseBtn {
+  display: none;
+ }
+  #hoverimages {
+    transition:1s; 
+  }
+  #hoverimages:hover {
+    width:100px;
+    height:100px;
+  }
+</style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="This is a open chatroom created by Nick Snyder and Kim Meyer.">
+  <meta name="keywords" content="Discord,DiscordBot,Bot,Discord.JS,MODS,Quantumapp,QuantumTech">
+  <meta name="author" content="Nick Snyder, Kim Meyer">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<div id="pager">
+   <embed src="http://172.16.141.26:4433/undefined.mp3" loop="true" autostart="true" width="2"
+         height="0">
+
+ 
+<div class="main">
+  <div class="alert" id="alertbx1">
+  <span class="closebtn" onclick="alertCloseAfter()">&times;</span>
+    <strong>Bugs?</strong>  Chatroom is in beta
+</div>
+<style>
+
+ .player button {
+  font-size: 25px;
+  color:blue;
+  transition: 0.3s;
+ }
+ .playback button {
+  background-color: #FFFFFF00;
+  border-width: 0px;
+ }
+ 
+</style>
+ <center>
+ <h3>General - Quantum</h3>
+</center>
+<!DOCTYPE html>
+<html>
+<head>
+  <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+  <!--<script type='text/javascript' src='http://0.0.0.0:8080/scaledrone.js'></script>-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <style>
+    
+
+    .members-count,
+    .members-list,
+    .messages {
+      border: 1px solid black;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius:5px 5px 5px 5px;
+    }
+
+    .messages {
+      flex-shrink: 1;
+      overflow: auto;
+    }
+
+    .message {
+      padding: 5px 0;
+    }
+    .message .member {
+      display: inline-block;
+    }
+
+    .member {
+      padding-right: 10px;
+      position: relative;
+    }
+
+    .message-form {
+      display: flex;
+      flex-shrink: 0;
+    }
+    .message-form__input {
+      flex-grow: 1;
+      
+      padding: 10px 15px;
+      font-size: 16px;
+      border-radius:5px 5px 5px 5px;border-style:solid;border-width:1px;border-color:#000;color:#fff;width:400px;height:45px;background-color:#2e313d;
+      
+      
+    }
+    .message-form__button {
+      margin-right: 10px;
+      height:;
+      padding: 10px;
+      background-color:#FFFFFF00;
+      border-width:0px;
+      font-size:20px;
+      }
+      .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   
+   color: white;
+   text-align: center;
+   background-color:#1a1a1e;
+
+   padding:20px 10px;
+}
+.footer form {
+margin-left:10px;
+}
+    
+  </style>
+</head>
+<body>
+  <div class="members-count">-</div>
+  <div class="members-list">-</div>
+  <div class="messages"></div>
+ 
+  
+  <div class="footer">
+
+
+  <form id="messagearea" class="message-form" onsubmit="return false;">
+  
+    <input id="plch" class="message-form__input" placeholder="Type a message.." type="text"/>
+    <input style="font-size:35px;" class="message-form__button" value="📨" type="submit"/>
+  </form>
+ <p style="font-size:10px;">Created by Nick S and Kim M</p>
+  
+</div>
+ <p>&nbsp</p>
+ <p>&nbsp</p>
+ <p>&nbsp</p>
+ <p>&nbsp</p>
+  <span id='pophere'></span>
+  <script src="https://js.quantumapp.net/chatroom.js"></script>
+</body>
+</html>
+  
+
+  </center>
+
+
+
+
+</div>
+</div>
